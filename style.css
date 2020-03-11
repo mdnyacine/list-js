@@ -1,0 +1,64 @@
+.search {
+  padding: 30px 0px 28px 0px;
+  background-color: #F2F2F2;
+  position: relative;
+  overflow: hidden;
+}
+
+.search:after {
+  content: '';
+  border-bottom: solid 2px #707070; 
+  margin: 5px 0 0 40px;
+  width: 85%;
+  position: absolute;
+}
+#myInput {
+  box-sizing: border-box;
+  background-image: url(img/search.png);
+  background-position: 40px 5px;
+  background-repeat: no-repeat;
+  background-color: #F2F2F2;
+  font-size: 16px;
+  padding: 5px 20px 5px 66px;
+  border: none;
+  width: 100%;
+  }
+  
+  input output{
+    background-color: #F2F2F2;
+
+  }
+
+  #myInput:focus {
+    background-color: #F2F2F2;
+    outline: 3px solid #F2F2F2;
+
+    }
+  
+  .dropdown {
+    max-width: 608px;
+    width: 100%;
+    overflow: auto;
+    text-transform: capitalize;
+    z-index: 1;
+  }
+
+  #list {
+    margin-top: 30px;
+    background-color: #F2F2F2;
+    max-height: 406px;
+    overflow-y: auto;
+  }
+  
+  .dropdown-content a {
+    color: #4A4A4A;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+  }
+  
+  .dropdown a:hover {
+    background-color: #ddd;
+    }
+  
